@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="utf-8"/>
+
+    <title>{% block title %}{% endblock %}d</title>
+
+    <!-- Custom fonts for this template-->
+
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+    <!-- Stylesheets -->
+
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet"/>
+
+    <link href="{% static 'plugins/revolution/css/settings.css' %}" rel="stylesheet" type="text/css"
+    />
+    <!-- REVOLUTION SETTINGS STYLES -->
+
+    <link href="{% static 'plugins/revolution/css/layers.css' %}" rel="stylesheet" type="text/css"/>
+    <!-- REVOLUTION LAYERS STYLES -->
+
+    <link href="{% static 'plugins/revolution/css/navigation.css' %}" rel="stylesheet" type="text/css"/>
+    <!-- REVOLUTION NAVIGATION STYLES -->
+
+    <link href="{% static 'css/style.css' %}" rel="stylesheet"/>
+
+    <link href="{% static 'css/responsive.css' %}" rel="stylesheet"/>
+
+    <!-- Color Switcher Mockup -->
+
+    <link href="{% static 'css/color-switcher-design.css' %}" rel="stylesheet"/>
+
+    <!-- Color Themes -->
+
+    <link id="theme-color-file" href="{% static 'css/color-themes/default-theme.css' %}" rel="stylesheet"/>
+
+{#    <link href="{% static 'css/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap' %}"#}
+{#          rel="stylesheet"/>#}
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+      </style>
+    <link rel="shortcut icon" href="{% static 'images/jforce-small.png' %}" type="image/x-icon"/>
+
+    <link rel="icon" href="{% static 'images/jforce-small.png' %}" type="image/x-icon"/>
+
+    <!-- Responsive -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+
+    <!--[if lt IE 9]><script src="{% static 'js/respond.js' %}"></script><![endif]-->
+
+</head>
+<body class="hidden-bar-wrapper">
+
+{% block content %}
+
+{% endblock %}
+
+<!-- Bootstrap core JavaScript-->
+<script src="{% static 'js/jquery.js' %}"></script>
+
+<!--Revolution Slider-->
+
+<script src="{% static 'plugins/revolution/js/jquery.themepunch.revolution.min.js' %}"></script>
+
+<script src="{% static 'plugins/revolution/js/jquery.themepunch.tools.min.js' %}"></script>
+
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.actions.min.js' %}"></script>
+
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.carousel.min.js' %}"></script>
+
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.kenburn.min.js' %}"></script>
+
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js' %}"></script>
+
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.migration.min.js' %}"></script>
+
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.navigation.min.js' %}"></script>
+
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.parallax.min.js' %}"></script>
+
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.slideanims.min.js' %}"></script>
+
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.video.min.js' %}"></script>
+
+<script src="{% static 'js/main-slider-script.js' %}"></script>
+
+<script src="{% static 'js/popper.min.js' %}"></script>
+
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+<script src="{% static 'js/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+
+<script src="{% static 'js/jquery.fancybox.js' %}"></script>
+
+<script src="{% static 'js/appear.js' %}"></script>
+
+<script src="{% static 'js/parallax.min.js' %}"></script>
+
+<script src="{% static 'js/tilt.jquery.min.js' %}"></script>
+
+<script src="{% static 'js/jquery.paroller.min.js' %}"></script>
+
+<script src="{% static 'js/owl.js' %}"></script>
+
+<script src="{% static 'js/wow.js' %}"></script>
+
+<script src="{% static 'js/nav-tool.js' %}"></script>
+
+<script src="{% static 'js/jquery-ui.js' %}"></script>
+
+<script src="{% static 'js/script.js' %}"></script>
+
+<script src="{% static 'js/color-settings.js' %}"></script>
+
+<!--Google Map APi Key-->
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIJ_QKHN-bi6_1C9f5eYE3pZs1zhQIo5o"></script>
+
+<script src="{% static 'js/map-script.js' %}"></script>
+
+</body>
+</html>
